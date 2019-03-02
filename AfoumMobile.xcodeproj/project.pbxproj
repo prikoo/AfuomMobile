@@ -15,6 +15,7 @@
 		D06BD446222B022300462691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BD444222B022300462691 /* LaunchScreen.storyboard */; };
 		D06BD451222B022400462691 /* AfoumMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD450222B022400462691 /* AfoumMobileTests.swift */; };
 		D06BD45C222B022400462691 /* AfoumMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD45B222B022400462691 /* AfoumMobileUITests.swift */; };
+		D06BD46D222B217900462691 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06BD46B222B20EA00462691 /* Skia.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D06BD45B222B022400462691 /* AfoumMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfoumMobileUITests.swift; sourceTree = "<group>"; };
 		D06BD45D222B022400462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D06BD469222B05AE00462691 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Skia.ttf; path = ../../../../../Library/Fonts/Skia.ttf; sourceTree = "<group>"; };
+		D06BD46B222B20EA00462691 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D06BD437222B022100462691 /* AfoumMobile */ = {
 			isa = PBXGroup;
 			children = (
+				D06BD46A222B20A100462691 /* Resources */,
 				D06BD438222B022100462691 /* AppDelegate.swift */,
 				D06BD43A222B022200462691 /* ViewController.swift */,
 				D06BD43C222B022200462691 /* Main.storyboard */,
@@ -128,6 +131,14 @@
 				D06BD45D222B022400462691 /* Info.plist */,
 			);
 			path = AfoumMobileUITests;
+			sourceTree = "<group>";
+		};
+		D06BD46A222B20A100462691 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D06BD46B222B20EA00462691 /* Skia.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06BD46D222B217900462691 /* Skia.ttf in Resources */,
 				D06BD446222B022300462691 /* LaunchScreen.storyboard in Resources */,
 				D06BD443222B022300462691 /* Assets.xcassets in Resources */,
 				D06BD43E222B022200462691 /* Main.storyboard in Resources */,
