@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06BD439222B022200462691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD438222B022100462691 /* AppDelegate.swift */; };
+		D06BD43B222B022200462691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD43A222B022200462691 /* ViewController.swift */; };
+		D06BD43E222B022200462691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BD43C222B022200462691 /* Main.storyboard */; };
+		D06BD441222B022200462691 /* AfoumMobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D06BD43F222B022200462691 /* AfoumMobile.xcdatamodeld */; };
+		D06BD443222B022300462691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06BD442222B022300462691 /* Assets.xcassets */; };
+		D06BD446222B022300462691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BD444222B022300462691 /* LaunchScreen.storyboard */; };
+		D06BD451222B022400462691 /* AfoumMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD450222B022400462691 /* AfoumMobileTests.swift */; };
+		D06BD45C222B022400462691 /* AfoumMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD45B222B022400462691 /* AfoumMobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06BD44D222B022400462691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06BD42D222B022100462691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06BD434222B022100462691;
+			remoteInfo = AfoumMobile;
+		};
+		D06BD458222B022400462691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06BD42D222B022100462691 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06BD434222B022100462691;
+			remoteInfo = AfoumMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D06BD435222B022100462691 /* AfoumMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfoumMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06BD438222B022100462691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06BD43A222B022200462691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06BD43D222B022200462691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06BD440222B022200462691 /* AfoumMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfoumMobile.xcdatamodel; sourceTree = "<group>"; };
+		D06BD442222B022300462691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06BD445222B022300462691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06BD447222B022300462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06BD44C222B022400462691 /* AfoumMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfoumMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06BD450222B022400462691 /* AfoumMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfoumMobileTests.swift; sourceTree = "<group>"; };
+		D06BD452222B022400462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06BD457222B022400462691 /* AfoumMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfoumMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06BD45B222B022400462691 /* AfoumMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfoumMobileUITests.swift; sourceTree = "<group>"; };
+		D06BD45D222B022400462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06BD432222B022100462691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD449222B022400462691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD454222B022400462691 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06BD42C222B022100462691 = {
+			isa = PBXGroup;
+			children = (
+				D06BD437222B022100462691 /* AfoumMobile */,
+				D06BD44F222B022400462691 /* AfoumMobileTests */,
+				D06BD45A222B022400462691 /* AfoumMobileUITests */,
+				D06BD436222B022100462691 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06BD436222B022100462691 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06BD435222B022100462691 /* AfoumMobile.app */,
+				D06BD44C222B022400462691 /* AfoumMobileTests.xctest */,
+				D06BD457222B022400462691 /* AfoumMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06BD437222B022100462691 /* AfoumMobile */ = {
+			isa = PBXGroup;
+			children = (
+				D06BD438222B022100462691 /* AppDelegate.swift */,
+				D06BD43A222B022200462691 /* ViewController.swift */,
+				D06BD43C222B022200462691 /* Main.storyboard */,
+				D06BD442222B022300462691 /* Assets.xcassets */,
+				D06BD444222B022300462691 /* LaunchScreen.storyboard */,
+				D06BD447222B022300462691 /* Info.plist */,
+				D06BD43F222B022200462691 /* AfoumMobile.xcdatamodeld */,
+			);
+			path = AfoumMobile;
+			sourceTree = "<group>";
+		};
+		D06BD44F222B022400462691 /* AfoumMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06BD450222B022400462691 /* AfoumMobileTests.swift */,
+				D06BD452222B022400462691 /* Info.plist */,
+			);
+			path = AfoumMobileTests;
+			sourceTree = "<group>";
+		};
+		D06BD45A222B022400462691 /* AfoumMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D06BD45B222B022400462691 /* AfoumMobileUITests.swift */,
+				D06BD45D222B022400462691 /* Info.plist */,
+			);
+			path = AfoumMobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06BD434222B022100462691 /* AfoumMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06BD460222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobile" */;
+			buildPhases = (
+				D06BD431222B022100462691 /* Sources */,
+				D06BD432222B022100462691 /* Frameworks */,
+				D06BD433222B022100462691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AfoumMobile;
+			productName = AfoumMobile;
+			productReference = D06BD435222B022100462691 /* AfoumMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06BD44B222B022400462691 /* AfoumMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06BD463222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobileTests" */;
+			buildPhases = (
+				D06BD448222B022400462691 /* Sources */,
+				D06BD449222B022400462691 /* Frameworks */,
+				D06BD44A222B022400462691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06BD44E222B022400462691 /* PBXTargetDependency */,
+			);
+			name = AfoumMobileTests;
+			productName = AfoumMobileTests;
+			productReference = D06BD44C222B022400462691 /* AfoumMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D06BD456222B022400462691 /* AfoumMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06BD466222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobileUITests" */;
+			buildPhases = (
+				D06BD453222B022400462691 /* Sources */,
+				D06BD454222B022400462691 /* Frameworks */,
+				D06BD455222B022400462691 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06BD459222B022400462691 /* PBXTargetDependency */,
+			);
+			name = AfoumMobileUITests;
+			productName = AfoumMobileUITests;
+			productReference = D06BD457222B022400462691 /* AfoumMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06BD42D222B022100462691 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Afuom;
+				TargetAttributes = {
+					D06BD434222B022100462691 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D06BD44B222B022400462691 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D06BD434222B022100462691;
+					};
+					D06BD456222B022400462691 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D06BD434222B022100462691;
+					};
+				};
+			};
+			buildConfigurationList = D06BD430222B022100462691 /* Build configuration list for PBXProject "AfoumMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06BD42C222B022100462691;
+			productRefGroup = D06BD436222B022100462691 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06BD434222B022100462691 /* AfoumMobile */,
+				D06BD44B222B022400462691 /* AfoumMobileTests */,
+				D06BD456222B022400462691 /* AfoumMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06BD433222B022100462691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BD446222B022300462691 /* LaunchScreen.storyboard in Resources */,
+				D06BD443222B022300462691 /* Assets.xcassets in Resources */,
+				D06BD43E222B022200462691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD44A222B022400462691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD455222B022400462691 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06BD431222B022100462691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BD441222B022200462691 /* AfoumMobile.xcdatamodeld in Sources */,
+				D06BD43B222B022200462691 /* ViewController.swift in Sources */,
+				D06BD439222B022200462691 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD448222B022400462691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BD451222B022400462691 /* AfoumMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BD453222B022400462691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BD45C222B022400462691 /* AfoumMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06BD44E222B022400462691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06BD434222B022100462691 /* AfoumMobile */;
+			targetProxy = D06BD44D222B022400462691 /* PBXContainerItemProxy */;
+		};
+		D06BD459222B022400462691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06BD434222B022100462691 /* AfoumMobile */;
+			targetProxy = D06BD458222B022400462691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06BD43C222B022200462691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06BD43D222B022200462691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06BD444222B022300462691 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06BD445222B022300462691 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06BD45E222B022400462691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06BD45F222B022400462691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06BD461222B022400462691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06BD462222B022400462691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D06BD464222B022400462691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AfoumMobile.app/AfoumMobile";
+			};
+			name = Debug;
+		};
+		D06BD465222B022400462691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AfoumMobile.app/AfoumMobile";
+			};
+			name = Release;
+		};
+		D06BD467222B022400462691 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AfoumMobile;
+			};
+			name = Debug;
+		};
+		D06BD468222B022400462691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AfoumMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cornell.AfoumMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AfoumMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06BD430222B022100462691 /* Build configuration list for PBXProject "AfoumMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BD45E222B022400462691 /* Debug */,
+				D06BD45F222B022400462691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BD460222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BD461222B022400462691 /* Debug */,
+				D06BD462222B022400462691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BD463222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BD464222B022400462691 /* Debug */,
+				D06BD465222B022400462691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BD466222B022400462691 /* Build configuration list for PBXNativeTarget "AfoumMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BD467222B022400462691 /* Debug */,
+				D06BD468222B022400462691 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D06BD43F222B022200462691 /* AfoumMobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D06BD440222B022200462691 /* AfoumMobile.xcdatamodel */,
+			);
+			currentVersion = D06BD440222B022200462691 /* AfoumMobile.xcdatamodel */;
+			path = AfoumMobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D06BD42D222B022100462691 /* Project object */;
+}
