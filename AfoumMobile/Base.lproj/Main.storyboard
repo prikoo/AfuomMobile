@@ -29,7 +29,7 @@
                                 <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
                                 <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Create your profile@">
+                                <state key="normal" title="Create your profile">
                                     <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -37,6 +37,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Fiw-iQ-Ghu" kind="show" id="483-iH-CXI"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smallLogo1" highlightedImage="smallLogo1" translatesAutoresizingMaskIntoConstraints="NO" id="OFt-kq-ONY">
                                 <rect key="frame" x="139" y="346" width="97" height="100"/>
@@ -80,11 +83,6 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="Fiw-iQ-Ghu" kind="popoverPresentation" popoverAnchorView="SRJ-hW-djS" id="7IC-Qk-Vmq">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Let's start with the basics." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C3i-zW-dlJ">
                                 <rect key="frame" x="67" y="99" width="240" height="75"/>
