@@ -49,6 +49,7 @@
 		D06BD457222B022400462691 /* AfoumMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AfoumMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06BD45B222B022400462691 /* AfoumMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfoumMobileUITests.swift; sourceTree = "<group>"; };
 		D06BD45D222B022400462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06BD469222B05AE00462691 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Skia.ttf; path = ../../../../../Library/Fonts/Skia.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		D06BD42C222B022100462691 = {
 			isa = PBXGroup;
 			children = (
+				D06BD469222B05AE00462691 /* Skia.ttf */,
 				D06BD437222B022100462691 /* AfoumMobile */,
 				D06BD44F222B022400462691 /* AfoumMobileTests */,
 				D06BD45A222B022400462691 /* AfoumMobileUITests */,
