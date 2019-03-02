@@ -85,13 +85,9 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-<<<<<<< HEAD
-                                    <segue destination="Fiw-iQ-Ghu" kind="presentation" id="EIu-s1-N9H"/>
-=======
                                     <segue destination="Fiw-iQ-Ghu" kind="popoverPresentation" popoverAnchorView="SRJ-hW-djS" id="Z5S-2f-4eq">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
->>>>>>> ea189f6497141f2eb8b90c94702bd6b8fddebe4e
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Let's start with the basics." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C3i-zW-dlJ">
@@ -1072,14 +1068,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qf7-8e-kas"/>
                     </view>
-<<<<<<< HEAD
-                    <tabBarItem key="tabBarItem" title="CROP" image="menuCrop" landscapeImage="menuCrop" id="oS1-w0-up5"/>
-=======
                     <tabBarItem key="tabBarItem" title="Item 1" selectedImage="menuCrop" id="oS1-w0-up5"/>
                     <connections>
                         <outlet property="mapView" destination="Rkz-wm-S1L" id="yoK-oF-Nff"/>
                     </connections>
->>>>>>> ea189f6497141f2eb8b90c94702bd6b8fddebe4e
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cC4-fd-tJJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
