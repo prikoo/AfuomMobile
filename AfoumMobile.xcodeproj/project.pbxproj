@@ -16,6 +16,8 @@
 		D06BD451222B022400462691 /* AfoumMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD450222B022400462691 /* AfoumMobileTests.swift */; };
 		D06BD45C222B022400462691 /* AfoumMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD45B222B022400462691 /* AfoumMobileUITests.swift */; };
 		D06BD46D222B217900462691 /* Skia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D06BD46B222B20EA00462691 /* Skia.ttf */; };
+		FA3A0E1F222B296D00C034E7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0E1E222B296D00C034E7 /* Item.swift */; };
+		FA3A0E21222B2A6600C034E7 /* Scene2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A0E20222B2A6600C034E7 /* Scene2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		D06BD45D222B022400462691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D06BD469222B05AE00462691 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Skia.ttf; path = ../../../../../Library/Fonts/Skia.ttf; sourceTree = "<group>"; };
 		D06BD46B222B20EA00462691 /* Skia.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skia.ttf; sourceTree = "<group>"; };
+		FA3A0E1E222B296D00C034E7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FA3A0E20222B2A6600C034E7 /* Scene2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,9 @@
 				D06BD46A222B20A100462691 /* Resources */,
 				D06BD438222B022100462691 /* AppDelegate.swift */,
 				D06BD43A222B022200462691 /* ViewController.swift */,
+				FA3A0E1E222B296D00C034E7 /* Item.swift */,
 				D06BD43C222B022200462691 /* Main.storyboard */,
+				FA3A0E20222B2A6600C034E7 /* Scene2ViewController.swift */,
 				D06BD442222B022300462691 /* Assets.xcassets */,
 				D06BD444222B022300462691 /* LaunchScreen.storyboard */,
 				D06BD447222B022300462691 /* Info.plist */,
@@ -273,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3A0E1F222B296D00C034E7 /* Item.swift in Sources */,
 				D06BD441222B022200462691 /* AfoumMobile.xcdatamodeld in Sources */,
 				D06BD43B222B022200462691 /* ViewController.swift in Sources */,
 				D06BD439222B022200462691 /* AppDelegate.swift in Sources */,
+				FA3A0E21222B2A6600C034E7 /* Scene2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
