@@ -16,12 +16,13 @@ class Scene2ViewController: UIViewController {
     func centerMapOnLocation(location: CLLocation)
     {
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
-                                                  latitudinalMeters: regionRadius*10, longitudinalMeters: regionRadius*10)
+                                                  latitudinalMeters: regionRadius*20, longitudinalMeters: regionRadius*20)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
-    
+
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        print ("Hello from MyView")
         if annotation is MKUserLocation
         {
             return nil
@@ -30,7 +31,7 @@ class Scene2ViewController: UIViewController {
         if annotationView == nil{
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "Pin")
             annotationView?.canShowCallout = false
-        }else{
+        } else{
             annotationView?.annotation = annotation
             //annotationView?.rightCalloutAccessoryView = rightButton
         }

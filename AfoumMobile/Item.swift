@@ -28,6 +28,27 @@ class Item: NSObject, MKAnnotation {
     var subtitle: String? {
         return locationName
     }
+    /*
+    private func setupItemAnnotationView(for annotation: Item, on mapView: MKMapView) -> MKAnnotationView {
+        let reuseIdentifier = NSStringFromClass(Item.self)
+        let flagAnnotationView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier, for: annotation)
+        
+        flagAnnotationView.canShowCallout = true
+        
+        // Provide the annotation view's image.
+        let image = UIImage.init(ciImage: <#T##CIImage#>)
+        flagAnnotationView.image = image
+        
+        // Provide the left image icon for the annotation.
+        flagAnnotationView.leftCalloutAccessoryView = UIImageView(image: #imageLiteral(resourceName: "sf_icon"))
+        
+        // Offset the flag annotation so that the flag pole rests on the map coordinate.
+        let offset = CGPoint(x: image.size.width / 2, y: -(image.size.height / 2) )
+        flagAnnotationView.centerOffset = offset
+        
+        return flagAnnotationView
+    }*/
+    
 }
 
 
