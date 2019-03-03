@@ -401,6 +401,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="show" id="FWy-9P-rE1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -463,6 +466,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="show" id="GdZ-Yi-ORo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHA-It-cq8">
                                 <rect key="frame" x="87" y="270" width="200" height="40"/>
@@ -1033,7 +1039,7 @@
             </objects>
             <point key="canvasLocation" x="5903" y="36"/>
         </scene>
-        <!--WEATHER-->
+        <!--View Controller-->
         <scene sceneID="Dnt-D0-8FD">
             <objects>
                 <viewController id="Rza-nD-6qe" sceneMemberID="viewController">
@@ -1043,13 +1049,30 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dmc-V0-I02"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="WEATHER" image="menuWeatherIcon" selectedImage="menuWeather" id="5l9-jW-sRp"/>
+                    <tabBarItem key="tabBarItem" title="" image="menuWeatherSmallest" id="5l9-jW-sRp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7c-5t-m4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8218" y="548"/>
+            <point key="canvasLocation" x="8270" y="394"/>
         </scene>
-        <!--DISEASE-->
+        <!--View Controller-->
+        <scene sceneID="ugh-Nh-2oL">
+            <objects>
+                <viewController id="tSB-vB-BHo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5wj-j8-1xu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Veh-YD-vOd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="menuHomeSmallest" id="7xc-ec-o8w"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iUK-f3-NIp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7337" y="-989"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="BDP-Ch-yMa">
             <objects>
                 <viewController id="izt-Zs-YWL" sceneMemberID="viewController">
@@ -1059,14 +1082,61 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dGQ-Ho-CER"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="DISEASE" image="menuDiseaseIcon" selectedImage="menuDisease" id="RYa-Pu-iVT"/>
+                    <tabBarItem key="tabBarItem" title="" image="menuDiseaseSmallest" id="RYa-Pu-iVT"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ezb-jS-657" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8271" y="-989"/>
         </scene>
-        <!--CROP-->
+        <!--View Controller-->
+        <scene sceneID="Gds-BY-TOY">
+            <objects>
+                <viewController id="TvA-xm-0PU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Odv-vS-Kbb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkf-lV-pKf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Diseases" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bxw-ee-n9e">
+                                <rect key="frame" x="0.0" y="45.599999999999909" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-0z-ZLQ">
+                                <rect key="frame" x="16" y="50.200000000000045" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zUr-65-kUp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kak-0K-PJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9178" y="-989"/>
+        </scene>
+        <!--Scene2 View Controller-->
         <scene sceneID="aXh-PV-zKH">
             <objects>
                 <viewController id="cWA-Df-fQS" customClass="Scene2ViewController" customModule="AfoumMobile" customModuleProvider="target" sceneMemberID="viewController">
@@ -1075,14 +1145,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-wm-S1L">
-                                <rect key="frame" x="16" y="20" width="343" height="598"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="BbU-op-qoy"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qf7-8e-kas"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="CROP" image="menuCropIcon" selectedImage="menuCrop" id="oS1-w0-up5"/>
+                    <tabBarItem key="tabBarItem" title="" image="menuCropSmallest" id="oS1-w0-up5"/>
                     <connections>
                         <outlet property="mapView" destination="Rkz-wm-S1L" id="yoK-oF-Nff"/>
                     </connections>
@@ -1101,9 +1172,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="cWA-Df-fQS" kind="relationship" relationship="viewControllers" id="9hs-d2-sEQ"/>
-                        <segue destination="Rza-nD-6qe" kind="relationship" relationship="viewControllers" id="Dfj-Wk-l5D"/>
-                        <segue destination="izt-Zs-YWL" kind="relationship" relationship="viewControllers" id="wNA-KY-OUy"/>
+                        <segue destination="tSB-vB-BHo" kind="relationship" relationship="viewControllers" id="p5w-1U-CKn"/>
+                        <segue destination="cWA-Df-fQS" kind="relationship" relationship="viewControllers" id="qbo-nG-Ap9"/>
+                        <segue destination="Rza-nD-6qe" kind="relationship" relationship="viewControllers" id="0PJ-Ro-Fjo"/>
+                        <segue destination="izt-Zs-YWL" kind="relationship" relationship="viewControllers" id="ucv-FO-ZBa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxY-Ev-7BE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1124,17 +1196,15 @@
         <image name="cropGrapes" width="122" height="175"/>
         <image name="cropManioc" width="122" height="175"/>
         <image name="cropTomato" width="122" height="175"/>
-        <image name="menuCrop" width="87" height="84"/>
-        <image name="menuCropIcon" width="15" height="17"/>
-        <image name="menuDisease" width="87" height="78"/>
-        <image name="menuDiseaseIcon" width="16" height="16"/>
-        <image name="menuWeather" width="87" height="93"/>
-        <image name="menuWeatherIcon" width="21" height="16"/>
+        <image name="menuCropSmallest" width="42" height="33"/>
+        <image name="menuDiseaseSmallest" width="43" height="33"/>
+        <image name="menuHomeSmallest" width="42" height="31"/>
+        <image name="menuWeatherSmallest" width="42" height="32"/>
         <image name="smallLogo1" width="103" height="102"/>
         <image name="user" width="119" height="141"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1B6-nj-HPe"/>
-        <segue reference="cTG-TY-fCY"/>
+        <segue reference="GdZ-Yi-ORo"/>
+        <segue reference="UMH-q3-4hV"/>
     </inferredMetricsTieBreakers>
 </document>

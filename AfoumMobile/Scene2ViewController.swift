@@ -16,8 +16,38 @@ class Scene2ViewController: UIViewController {
     func centerMapOnLocation(location: CLLocation)
     {
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
-                                                  latitudinalMeters: regionRadius * 100.0, longitudinalMeters: regionRadius * 100.0)
+                                                  latitudinalMeters: regionRadius*10, longitudinalMeters: regionRadius*10)
         mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation
+        {
+            return nil
+        }
+        var annotationView = self.mapView.dequeueReusableAnnotationView(withIdentifier: "Pin")
+        if annotationView == nil{
+            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "Pin")
+            annotationView?.canShowCallout = false
+        }else{
+            annotationView?.annotation = annotation
+            //annotationView?.rightCalloutAccessoryView = rightButton
+        }
+        annotationView?.image = UIImage(named: "iconBanana")
+        
+        let rightButton = UIButton(type: .contactAdd)
+        rightButton.tag = annotation.hash
+        
+        //annotationView.animatesDrop = true
+        //annotationView.canShowCallout = true
+        
+        
+        
+        return annotationView
+        
+        
+        
     }
     
     
@@ -99,5 +129,7 @@ class Scene2ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+ 
 
 }

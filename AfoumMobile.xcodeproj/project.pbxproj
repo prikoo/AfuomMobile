@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D056FA2D222B6DB900461169 /* Disease.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056FA2C222B6DB900461169 /* Disease.swift */; };
 		D06BD439222B022200462691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD438222B022100462691 /* AppDelegate.swift */; };
 		D06BD43B222B022200462691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BD43A222B022200462691 /* ViewController.swift */; };
 		D06BD43E222B022200462691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BD43C222B022200462691 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D056FA2C222B6DB900461169 /* Disease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disease.swift; sourceTree = "<group>"; };
 		D06BD435222B022100462691 /* AfoumMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfoumMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06BD438222B022100462691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D06BD43A222B022200462691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				D06BD46A222B20A100462691 /* Resources */,
 				D06BD438222B022100462691 /* AppDelegate.swift */,
 				D06BD43A222B022200462691 /* ViewController.swift */,
+				D056FA2C222B6DB900461169 /* Disease.swift */,
 				FA3A0E1E222B296D00C034E7 /* Item.swift */,
 				D06BD43C222B022200462691 /* Main.storyboard */,
 				FA3A0E20222B2A6600C034E7 /* Scene2ViewController.swift */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056FA2D222B6DB900461169 /* Disease.swift in Sources */,
 				FA3A0E1F222B296D00C034E7 /* Item.swift in Sources */,
 				D06BD441222B022200462691 /* AfoumMobile.xcdatamodeld in Sources */,
 				D06BD43B222B022200462691 /* ViewController.swift in Sources */,
