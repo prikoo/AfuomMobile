@@ -31,7 +31,7 @@ class Scene2ViewController: UIViewController {
         if annotationView == nil{
             annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "Pin")
             annotationView?.canShowCallout = false
-        } else{
+        } else {
             annotationView?.annotation = annotation
             //annotationView?.rightCalloutAccessoryView = rightButton
         }
