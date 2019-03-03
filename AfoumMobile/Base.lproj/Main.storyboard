@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cWA-Df-fQS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,11 +28,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPu-aH-TBp">
                                 <rect key="frame" x="87" y="503" width="200" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
                                 <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Create your profile">
-                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="-86" y="36"/>
         </scene>
-        <!--View Controller-->
+        <!--Input1 View Controller-->
         <scene sceneID="7i3-2D-U7w">
             <objects>
-                <viewController id="FPg-Vd-Anx" sceneMemberID="viewController">
+                <viewController id="FPg-Vd-Anx" customClass="Input_1_ViewController" customModule="AfoumMobile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6fS-NO-fBG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,11 +75,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRJ-hW-djS">
                                 <rect key="frame" x="84" y="528" width="200" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
                                 <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Next Step">
-                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -101,6 +101,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Location" borderStyle="roundedRect" placeholder="Location" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WsX-ts-dxl">
                                 <rect key="frame" x="62" y="395" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="textField2"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -108,6 +109,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Phone Number" borderStyle="roundedRect" placeholder="Farm Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="bLT-o3-e2c">
                                 <rect key="frame" x="62" y="442" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="textField3"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -115,14 +117,41 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Farm Name" borderStyle="roundedRect" placeholder="Farm Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="401-WO-8C9">
                                 <rect key="frame" x="62" y="343" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="textField1"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" highlightedImage="user" translatesAutoresizingMaskIntoConstraints="NO" id="3Es-ds-GT8">
                                 <rect key="frame" x="134" y="198" width="100" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNH-Nx-cb4">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="popoverPresentation" popoverAnchorView="UNH-Nx-cb4" id="rLT-ZF-trr">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23K-bT-dl2">
+                                <rect key="frame" x="323" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="next &gt;">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fiw-iQ-Ghu" kind="popoverPresentation" popoverAnchorView="23K-bT-dl2" id="QaA-Y5-YLN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fWU-V5-TMl"/>
@@ -170,6 +199,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="show" id="sYY-Ss-NhJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVV-gW-BDX">
                                 <rect key="frame" x="207.66666666666788" y="270" width="50" height="40"/>
@@ -185,6 +217,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="presentation" id="TUf-I6-59E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Or-jJ-Q4S">
                                 <rect key="frame" x="86.666666666667879" y="532" width="200" height="40"/>
@@ -218,6 +253,32 @@
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnh-AF-Am8">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FPg-Vd-Anx" kind="popoverPresentation" popoverAnchorView="bnh-AF-Am8" id="zNw-Ga-8bv">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNo-yc-gTt">
+                                <rect key="frame" x="323" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="next &gt;">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="pNo-yc-gTt" id="YRE-OL-B2R">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mZU-u9-Fjl"/>
@@ -303,6 +364,32 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMU-Lo-gPV">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Fiw-iQ-Ghu" kind="popoverPresentation" popoverAnchorView="NMU-Lo-gPV" id="64x-Bz-UCc">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27e-MB-anb">
+                                <rect key="frame" x="323" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="next &gt;">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QLv-fb-qs2" kind="popoverPresentation" popoverAnchorView="27e-MB-anb" id="wgO-QL-Zg4">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="HSa-x5-8Qa"/>
@@ -310,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfT-PO-CdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2016" y="30"/>
+            <point key="canvasLocation" x="2010" y="36"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eBm-Bl-sGT">
@@ -346,6 +433,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="jeV-FB-Qij" id="dPF-uD-TDf">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kce-mW-ujw">
                                 <rect key="frame" x="87" y="220" width="200.00000000000023" height="40.000000000000064"/>
@@ -361,6 +453,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="kce-mW-ujw" id="sp9-78-hl0">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbG-4D-yDp">
                                 <rect key="frame" x="87" y="500" width="200" height="40"/>
@@ -405,6 +502,19 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="aPp-0e-owr" kind="show" id="FWy-9P-rE1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M0M-Ex-3sY">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="M0M-Ex-3sY" id="vpa-VN-gNU">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
@@ -486,6 +596,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="HHA-It-cq8" id="LDc-5q-KQk">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pwc-gG-djX">
                                 <rect key="frame" x="87" y="220" width="200" height="40.000000000000057"/>
@@ -501,6 +616,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Pwc-gG-djX" id="tKf-jM-B71">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I don't know" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="05t-4j-WVS">
                                 <rect key="frame" x="120" y="420" width="135" height="30"/>
@@ -525,6 +645,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Hzk-5Y-tOE" id="hbj-lb-0Pq">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cow-xt-Jfb">
                                 <rect key="frame" x="87" y="370" width="200" height="40"/>
@@ -540,6 +665,24 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Cow-xt-Jfb" id="74Q-Hx-Vb3">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zsz-my-7ry">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Zsz-my-7ry" id="Hp9-L7-CG5">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -584,6 +727,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="v1J-UX-HTP" id="Khe-eL-Faf">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZg-7X-F7Q">
                                 <rect key="frame" x="88" y="220" width="199.99999999999955" height="39.999999999999964"/>
@@ -599,6 +747,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="kZg-7X-F7Q" id="LZx-hp-25E">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I don't know" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cq2-GZ-Soo">
                                 <rect key="frame" x="119" y="370" width="135" height="30"/>
@@ -623,6 +776,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="oaA-UF-shv" id="nS1-8w-pOV">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfw-5X-Lto">
                                 <rect key="frame" x="88" y="500" width="200" height="40"/>
@@ -658,6 +816,19 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="aPp-0e-owr" kind="show" id="rnY-Mh-hoO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJc-2Q-AdL">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="sJc-2Q-AdL" id="44f-hi-XSQ">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
@@ -703,6 +874,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="fyH-Io-tVo" id="1dP-2b-5ZW">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIo-bv-bMV">
                                 <rect key="frame" x="87" y="220" width="200" height="40"/>
@@ -718,6 +894,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="NIo-bv-bMV" id="mGf-rn-f9s">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I don't know" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HjM-cH-AKF">
                                 <rect key="frame" x="120" y="370" width="135" height="30"/>
@@ -742,6 +923,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="DE4-HZ-Zri" id="c7X-vs-eIW">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="esN-TT-JwN">
                                 <rect key="frame" x="87" y="500" width="200" height="40"/>
@@ -779,6 +965,19 @@
                                     <segue destination="aPp-0e-owr" kind="show" id="SBa-Rn-BZz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imj-Dq-0LS">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="imj-Dq-0LS" id="H4j-qU-TD2">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MlA-yr-2bH"/>
@@ -810,6 +1009,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="IqI-Zz-AED" id="BoM-UZ-lk5">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsO-oo-R6o">
                                 <rect key="frame" x="87" y="220" width="200" height="40"/>
@@ -825,6 +1029,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="JsO-oo-R6o" id="Chv-Bx-zSN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I don't know" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DMP-Iy-Svy">
                                 <rect key="frame" x="120" y="470" width="135" height="30"/>
@@ -849,6 +1058,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="ksj-Rq-LS9" id="ERj-G9-cmB">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jde-DZ-Jnp">
                                 <rect key="frame" x="87" y="370" width="200" height="40"/>
@@ -864,6 +1078,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Jde-DZ-Jnp" id="MBb-8a-AGf">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6A-yv-s57">
                                 <rect key="frame" x="87" y="420" width="200" height="40"/>
@@ -879,6 +1098,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="s6A-yv-s57" id="PCY-8T-BqK">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVU-Ja-IGK">
                                 <rect key="frame" x="87" y="507" width="200" height="40"/>
@@ -928,6 +1152,19 @@
                                 <rect key="frame" x="52" y="70" width="70" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEW-S9-DZT">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="ZEW-S9-DZT" id="70b-TZ-Avn">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="MG2-vT-EfX"/>
@@ -935,7 +1172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qua-5V-Bqw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5257" y="40"/>
+            <point key="canvasLocation" x="5256.8000000000002" y="39.130434782608695"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OgR-fF-SR7">
@@ -971,6 +1208,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="bYm-wp-qT5" id="wud-mT-R6V">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lqk-JI-mxG">
                                 <rect key="frame" x="87" y="220" width="200" height="40"/>
@@ -986,6 +1228,11 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="Lqk-JI-mxG" id="RLW-f4-C3T">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I don't know" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="syT-rh-oEP">
                                 <rect key="frame" x="120.33333333333394" y="323" width="135" height="30"/>
@@ -1032,6 +1279,19 @@
                                     <segue destination="aPp-0e-owr" kind="show" id="1B6-nj-HPe"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lH-Tr-218">
+                                <rect key="frame" x="16" y="30" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="3lH-Tr-218" id="a92-34-K9Q">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CV3-qy-jpD"/>
@@ -1048,6 +1308,13 @@
                     <view key="view" contentMode="scaleToFill" id="KV2-j1-v9i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2TF-et-knQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="yi8-kz-nAy"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dmc-V0-I02"/>
                     </view>
@@ -1056,6 +1323,126 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7c-5t-m4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8270" y="394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bho-Fr-rgT">
+            <objects>
+                <viewController id="4aN-Co-gwA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eLZ-Ad-frE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Add Disease" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lhE-Oe-Abj">
+                                <rect key="frame" x="0.0" y="46" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcO-Ua-sIA">
+                                <rect key="frame" x="17" y="51" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xop-k8-baY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5q-Ex-Wdz">
+                                <rect key="frame" x="333" y="46" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="iconHome"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Crop" translatesAutoresizingMaskIntoConstraints="NO" id="TE5-Tn-CkY">
+                                <rect key="frame" x="16" y="120" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Variety" translatesAutoresizingMaskIntoConstraints="NO" id="jQf-xV-ZYV">
+                                <rect key="frame" x="16" y="170" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="varietyLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Disease" translatesAutoresizingMaskIntoConstraints="NO" id="9UB-z2-wGI">
+                                <rect key="frame" x="16" y="220" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEi-Es-aiD">
+                                <rect key="frame" x="87" y="354" width="200" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
+                                <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Done!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3q-Y7-qMt" customClass="picker">
+                                <rect key="frame" x="129" y="120" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PL1-iW-IfD">
+                                <rect key="frame" x="129" y="170" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QhZ-p9-fNW">
+                                <rect key="frame" x="129" y="220" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="AMi-4R-UrG">
+                                <rect key="frame" x="16" y="270" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJw-BY-nXP">
+                                <rect key="frame" x="129" y="277" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="iconCamera"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7m8-k1-boV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhg-H3-O9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9020" y="394"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ugh-Nh-2oL">
@@ -1081,6 +1468,47 @@
                     <view key="view" contentMode="scaleToFill" id="h1b-IN-yf6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S17-xM-cAI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="WBe-WW-ENn"/>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="Jls-VY-zph">
+                                <rect key="frame" x="126" y="150" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="ghu-up-27s">
+                                <rect key="frame" x="177" y="242" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="WyL-vb-MN1">
+                                <rect key="frame" x="58" y="78" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghk-Kf-Bud">
+                                <rect key="frame" x="305" y="50" width="30" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="locationPinSmallGreenPlus"/>
+                                <connections>
+                                    <segue destination="YgP-85-6bL" kind="popoverPresentation" popoverAnchorView="Ghk-Kf-Bud" id="Uqp-xP-YLt">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="ucf-pN-pn2">
+                                <rect key="frame" x="228" y="242" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="fS8-H4-7dP">
+                                <rect key="frame" x="238" y="252" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationPinSmall" translatesAutoresizingMaskIntoConstraints="NO" id="FHg-RY-noR">
+                                <rect key="frame" x="256" y="230" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dGQ-Ho-CER"/>
                     </view>
@@ -1181,8 +1609,8 @@
                                 <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="XXX" translatesAutoresizingMaskIntoConstraints="NO" id="RdU-jn-NQl">
-                                <rect key="frame" x="130" y="380" width="203" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Coffee Arabica" translatesAutoresizingMaskIntoConstraints="NO" id="RdU-jn-NQl">
+                                <rect key="frame" x="130" y="380" width="203" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration" identifier="varietyField"/>
@@ -1225,7 +1653,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kak-0K-PJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9176.7999999999993" y="-989.05547226386818"/>
+            <point key="canvasLocation" x="9020" y="-1625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C3s-aK-JU5">
@@ -1273,7 +1701,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iconHome"/>
                                 <connections>
-                                    <segue destination="KlZ-9q-9kN" kind="popoverPresentation" popoverAnchorView="chi-B0-rXK" id="MdC-AL-dzK">
+                                    <segue destination="aPp-0e-owr" kind="popoverPresentation" popoverAnchorView="chi-B0-rXK" id="D8A-6p-E8r">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -1484,7 +1912,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Farm Profile" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yeC-ia-GfG">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Farm Profile" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yeC-ia-GfG">
                                 <rect key="frame" x="0.0" y="46" width="375" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1495,14 +1923,6 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbt-ym-ODl">
-                                <rect key="frame" x="17" y="51" width="36" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
-                                <state key="normal" title="&lt; back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lrs-gc-iZJ">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1524,68 +1944,141 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iconShop"/>
                                 <connections>
-                                    <segue destination="2IH-cQ-fa0" kind="popoverPresentation" popoverAnchorView="umF-s8-zAz" id="dlv-54-yne">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="2IH-cQ-fa0" kind="show" id="Lbn-0Z-UIG"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="FARM" translatesAutoresizingMaskIntoConstraints="NO" id="ww6-Fn-myK">
-                                <rect key="frame" x="33" y="107" width="239" height="32"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="STEFY FRESH" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ww6-Fn-myK">
+                                <rect key="frame" x="17" y="91" width="342" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration" identifier="threatLevelLabel"/>
                                 <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FXJ-vc-AH1">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RDD-lL-oTw">
+                                <rect key="frame" x="16" y="154" width="343" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="I have a banana farm and am skilled at pest control">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Skia-Regular_Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" localized="YES">
-                                        <string key="value">extension UIImageView {
-    func load(url: URL) {
-        DispatchQueue.global().async { [weak self] in
-            if let data = try? Data(contentsOf: url) {
-                if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self?.image = image
-                    }
-                }
-            }
-        }
-    }
-</string>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.padding">
+                                        <integer key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="PWd-6b-wV4">
+                                <rect key="frame" x="17" y="423" width="343" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Can I borrow your tractor? Mine broke. Will repay…" translatesAutoresizingMaskIntoConstraints="NO" id="RDD-lL-oTw">
-                                <rect key="frame" x="16" y="164" width="343" height="51"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="My FarmBeats" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6Bv-ai-STq">
+                                <rect key="frame" x="16" y="423" width="343" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconHumidity" translatesAutoresizingMaskIntoConstraints="NO" id="wND-ZZ-1wX">
+                                <rect key="frame" x="49" y="485" width="29" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTemperature" translatesAutoresizingMaskIntoConstraints="NO" id="8SZ-Dd-TRz">
+                                <rect key="frame" x="132" y="485" width="37" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconMoisture" translatesAutoresizingMaskIntoConstraints="NO" id="EEj-MQ-Taf">
+                                <rect key="frame" x="210" y="488" width="48" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="25.1%" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YbT-3O-7Gk">
+                                <rect key="frame" x="27" y="536" width="73" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
                                 <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Skia-Regular_Light" family="Skia" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="71F" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Z1-y6-yR3">
+                                <rect key="frame" x="114" y="536" width="73" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="60.6%" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uEa-ZQ-jcf">
+                                <rect key="frame" x="198" y="536" width="73" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="1.5%" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JPP-6R-kw6">
+                                <rect key="frame" x="279" y="536" width="73" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconLight" translatesAutoresizingMaskIntoConstraints="NO" id="e2H-S7-VX7">
+                                <rect key="frame" x="295" y="493" width="40" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="Si3-Ah-Hed">
+                                <rect key="frame" x="17" y="228" width="343" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="My Crops" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="D9y-Sf-pGw">
+                                <rect key="frame" x="17" y="228" width="342" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconBanana" translatesAutoresizingMaskIntoConstraints="NO" id="bG3-uN-nP7">
+                                <rect key="frame" x="82" y="277" width="60" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCoffee" translatesAutoresizingMaskIntoConstraints="NO" id="bKp-tX-8Qn">
+                                <rect key="frame" x="231" y="277" width="60" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ELk-fs-Hh6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" selectedImage="menuHomeSmallest" id="FBd-E6-Nwm"/>
+                    <tabBarItem key="tabBarItem" title="" image="menuHomeSmallest" selectedImage="menuHomeSmallest" id="FBd-E6-Nwm"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrI-Ue-nkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11445.6" y="-179.46026986506749"/>
+            <point key="canvasLocation" x="10487" y="-213"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="F1J-a9-2HU">
+        <scene sceneID="8wx-4l-hJS">
             <objects>
-                <viewController storyboardIdentifier="vcMarketplace" id="2IH-cQ-fa0" customClass="ViewController" customModule="AfoumMobile" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6Rr-uG-Uir">
+                <viewController id="gRx-38-DmA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cRA-6u-66S">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Marketplace" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEF-9p-wTJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Farming Tools" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EO1-as-hON">
                                 <rect key="frame" x="0.0" y="46" width="375" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1596,14 +2089,92 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m2O-4o-Y4s">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayS-2M-geW">
                                 <rect key="frame" x="17" y="51" width="36" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
                                 <state key="normal" title="&lt; back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2IH-cQ-fa0" kind="popoverPresentation" popoverAnchorView="ayS-2M-geW" id="GNp-Bl-KKD">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mJY-2U-VOR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhn-ge-nGT">
+                                <rect key="frame" x="333" y="46" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="iconHome"/>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="popoverPresentation" popoverAnchorView="jhn-ge-nGT" id="Ayc-5h-xWN">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketCartPrice" translatesAutoresizingMaskIntoConstraints="NO" id="NAS-Sk-XJR">
+                                <rect key="frame" x="17" y="100" width="340" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketToolPrice1" translatesAutoresizingMaskIntoConstraints="NO" id="LBD-ak-gLN">
+                                <rect key="frame" x="17" y="250" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketToolPrice2" translatesAutoresizingMaskIntoConstraints="NO" id="74U-xq-aqH">
+                                <rect key="frame" x="137" y="250" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketToolPrice3" translatesAutoresizingMaskIntoConstraints="NO" id="atC-kO-mTM">
+                                <rect key="frame" x="259" y="250" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marketToolPrice4" translatesAutoresizingMaskIntoConstraints="NO" id="7wo-AK-OuF">
+                                <rect key="frame" x="17" y="375" width="183" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarketToolPrice5" translatesAutoresizingMaskIntoConstraints="NO" id="d67-2N-vcj">
+                                <rect key="frame" x="220" y="375" width="139" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xMW-ER-If4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EvC-5V-xWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9838" y="484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F1J-a9-2HU">
+            <objects>
+                <viewController storyboardIdentifier="vcMarketplace" id="2IH-cQ-fa0" customClass="ViewController" customModule="AfoumMobile" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Rr-uG-Uir">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Marketplace" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jEF-9p-wTJ">
+                                <rect key="frame" x="0.0" y="46" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVT-H8-Gto">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1620,11 +2191,135 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iconHome"/>
                                 <connections>
-                                    <segue destination="KlZ-9q-9kN" kind="popoverPresentation" popoverAnchorView="FxS-Ir-xFl" id="M5Y-Ik-88i">
+                                    <segue destination="aPp-0e-owr" kind="popoverPresentation" popoverAnchorView="FxS-Ir-xFl" id="PUH-4V-LQG">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="STEFY FRESH MARKETPLACE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y0L-k3-Di8">
+                                <rect key="frame" x="17" y="104" width="342" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Potential flooding alert has been CANCELLED for the Salvador region. " translatesAutoresizingMaskIntoConstraints="NO" id="2Hv-1X-rYf">
+                                <rect key="frame" x="17" y="390" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconShare" translatesAutoresizingMaskIntoConstraints="NO" id="s2F-vR-Yag">
+                                <rect key="frame" x="299" y="182" width="48" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SEEDS" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mlS-ZV-H9j">
+                                <rect key="frame" x="108" y="200" width="70" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconSeeds" translatesAutoresizingMaskIntoConstraints="NO" id="F7d-NO-P8P">
+                                <rect key="frame" x="121" y="164" width="44" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconService" translatesAutoresizingMaskIntoConstraints="NO" id="gmN-jD-kHS">
+                                <rect key="frame" x="206" y="164" width="44" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="TOOLS" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mrH-88-8mK">
+                                <rect key="frame" x="29" y="200" width="70" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SHARE" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YpL-xP-hT7">
+                                <rect key="frame" x="278" y="200" width="70" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="SERVICES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fWk-vc-ctk">
+                                <rect key="frame" x="189" y="200" width="78" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="NOTIFICATIONS" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Eh-D5-JCo">
+                                <rect key="frame" x="-7" y="316" width="382" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="al0-WW-NGr">
+                                <rect key="frame" x="17" y="358" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Cancelled Alert">
+                                        <attributes>
+                                            <color key="NSColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="Skia-Regular_Bold"/>
+                                            <font key="NSOriginalFont" size="17" name="Skia-Regular_Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Floods forecasted for this week. Be prepared by following the steps outlined by the…" translatesAutoresizingMaskIntoConstraints="NO" id="KTQ-pr-SgU">
+                                <rect key="frame" x="17" y="486" width="343" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ibz-qp-SdD">
+                                <rect key="frame" x="17" y="454" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelField"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Yellow Alert: Potential Flooding">
+                                        <attributes>
+                                            <color key="NSColor" red="0.17175000000000001" green="0.29042000000000001" blue="0.35632000000000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="16" name="Skia-Regular_Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKL-tu-2gY">
+                                <rect key="frame" x="41" y="164" width="46" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="iconTools"/>
+                                <connections>
+                                    <segue destination="gRx-38-DmA" kind="show" id="fiV-hi-vZX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCrossRed" translatesAutoresizingMaskIntoConstraints="NO" id="icm-by-bhV">
+                                <rect key="frame" x="327" y="363" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconAlertYellow" translatesAutoresizingMaskIntoConstraints="NO" id="HST-L2-WMv">
+                                <rect key="frame" x="328" y="459" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ncc-dr-CgQ"/>
@@ -1632,7 +2327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CSX-HZ-G82" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10553" y="-179"/>
+            <point key="canvasLocation" x="9838" y="-213"/>
         </scene>
         <!--Scene2 View Controller-->
         <scene sceneID="aXh-PV-zKH">
@@ -1643,21 +2338,76 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-wm-S1L">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="-1" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="safeArea" id="BbU-op-qoy"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmg-tP-KRR">
-                                <rect key="frame" x="294" y="34" width="65" height="24"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconGrapes" translatesAutoresizingMaskIntoConstraints="NO" id="uZ4-Jy-w40">
+                                <rect key="frame" x="239" y="181" width="20" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
-                                <state key="normal" title="+ add event">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconGrapes" translatesAutoresizingMaskIntoConstraints="NO" id="eD7-kD-WQU">
+                                <rect key="frame" x="239" y="213" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconGrapes" translatesAutoresizingMaskIntoConstraints="NO" id="w5F-7P-99V">
+                                <rect key="frame" x="102" y="114" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="CmS-Sz-1s5">
+                                <rect key="frame" x="124" y="124" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="ksK-fn-tuC">
+                                <rect key="frame" x="134" y="134" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="fFi-UB-GUL">
+                                <rect key="frame" x="213" y="191" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="5Sa-Zj-R2G">
+                                <rect key="frame" x="109" y="289" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="dqX-sb-WZp">
+                                <rect key="frame" x="119" y="299" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconGrapes" translatesAutoresizingMaskIntoConstraints="NO" id="IpN-Yn-xdX">
+                                <rect key="frame" x="213" y="222" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconBanana" translatesAutoresizingMaskIntoConstraints="NO" id="obn-7g-FCV">
+                                <rect key="frame" x="109" y="86" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconBanana" translatesAutoresizingMaskIntoConstraints="NO" id="PVL-ji-PBn">
+                                <rect key="frame" x="117" y="76" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconBanana" translatesAutoresizingMaskIntoConstraints="NO" id="st3-er-yEO">
+                                <rect key="frame" x="89" y="76" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconBanana" translatesAutoresizingMaskIntoConstraints="NO" id="7H3-u6-ST4">
+                                <rect key="frame" x="130" y="103" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p41-rr-hrT">
+                                <rect key="frame" x="305" y="50" width="30" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="locationPinSmallGreenPlus"/>
                                 <connections>
-                                    <segue destination="YgP-85-6bL" kind="push" id="Mfd-hp-iPr"/>
+                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="p41-rr-hrT" id="iZb-eU-7FE">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconCocoa" translatesAutoresizingMaskIntoConstraints="NO" id="WwJ-fa-FHo">
+                                <rect key="frame" x="89" y="311" width="20" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qf7-8e-kas"/>
@@ -1672,6 +2422,126 @@
             <point key="canvasLocation" x="8256.7999999999993" y="-302.6986506746627"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="NIg-Sr-qog">
+            <objects>
+                <viewController id="INc-p6-USg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u0y-66-BeH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Add Disease" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5c-Dy-2DR">
+                                <rect key="frame" x="0.0" y="46" width="375" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOU-QA-tRv">
+                                <rect key="frame" x="17" y="51" width="36" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="12"/>
+                                <state key="normal" title="&lt; back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i8i-Ne-ff4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="textField.contentVerticalAlignment" value="UIControlContentVerticalAlignmentCenter"/>
+                                </userDefinedRuntimeAttributes>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="13Q-mY-Udh">
+                                <rect key="frame" x="333" y="46" width="26" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="iconHome"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Crop" translatesAutoresizingMaskIntoConstraints="NO" id="pvQ-Lg-V4h">
+                                <rect key="frame" x="16" y="120" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="threatLevelLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Variety" translatesAutoresizingMaskIntoConstraints="NO" id="w8R-zD-mML">
+                                <rect key="frame" x="16" y="170" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="varietyLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Disease" translatesAutoresizingMaskIntoConstraints="NO" id="Og0-Gu-y2k">
+                                <rect key="frame" x="16" y="220" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thQ-N6-Wu9">
+                                <rect key="frame" x="87" y="354" width="200" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
+                                <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Done!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGh-Bo-Uhu" customClass="picker">
+                                <rect key="frame" x="129" y="120" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGM-1a-VRK">
+                                <rect key="frame" x="129" y="170" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Az6-ER-QH0">
+                                <rect key="frame" x="129" y="220" width="230" height="34"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="MHU-2F-00j">
+                                <rect key="frame" x="16" y="270" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tg-Z7-7HD">
+                                <rect key="frame" x="129" y="277" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="iconCamera"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="M7p-dm-IGE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s1L-qo-JtA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9041" y="-303"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="WCG-HK-SZu">
             <objects>
                 <viewController id="YgP-85-6bL" customClass="ViewController" customModule="AfoumMobile" customModuleProvider="target" sceneMemberID="viewController">
@@ -1679,7 +2549,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Chat" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BaF-uH-rSj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Add Disease" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BaF-uH-rSj">
                                 <rect key="frame" x="0.0" y="46" width="375" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1697,6 +2567,11 @@
                                 <state key="normal" title="&lt; back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="popoverPresentation" popoverAnchorView="51z-WU-TYk" id="uMd-5X-ojT">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WR8-9R-Jsb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
@@ -1714,7 +2589,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="iconHome"/>
                                 <connections>
-                                    <segue destination="KlZ-9q-9kN" kind="popoverPresentation" popoverAnchorView="fjs-Ch-jpc" id="K7F-L3-MPw">
+                                    <segue destination="aPp-0e-owr" kind="popoverPresentation" popoverAnchorView="fjs-Ch-jpc" id="jb8-Y0-hvn">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -1761,18 +2636,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="TvA-xm-0PU" kind="push" id="Acn-9o-5p9"/>
+                                    <segue destination="TvA-xm-0PU" kind="popoverPresentation" popoverAnchorView="fC8-kD-4yw" id="gni-m2-4VE">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="LrN-Fp-Uzi">
-                                <rect key="frame" x="16" y="270" width="100" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
-                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xm9-ij-PHl" customClass="picker">
                                 <rect key="frame" x="129" y="120" width="230" height="34"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -1785,6 +2653,20 @@
                                 <rect key="frame" x="129" y="220" width="230" height="34"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Photo" translatesAutoresizingMaskIntoConstraints="NO" id="Hkx-hd-qv3">
+                                <rect key="frame" x="16" y="270" width="100" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="preventionLabel"/>
+                                <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24b-fA-FLb">
+                                <rect key="frame" x="129" y="277" width="30" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="iconCamera"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="U8s-YV-6tq"/>
@@ -1793,7 +2675,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0Y-nF-TYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9124" y="-212"/>
+            <point key="canvasLocation" x="9041" y="-979"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="MZ3-xV-xfI">
@@ -1815,8 +2697,22 @@
             </objects>
             <point key="canvasLocation" x="7198" y="36"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vb4-lL-wz5">
+            <objects>
+                <viewController id="ghu-el-yAp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UOu-oQ-jBX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hle-Iv-zT6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
+        <image name="MarketToolPrice5" width="181" height="142"/>
         <image name="chatIcon" width="83" height="82"/>
         <image name="chatKhyatee" width="84" height="83"/>
         <image name="chatPriscilla" width="84" height="83"/>
@@ -1834,8 +2730,31 @@
         <image name="cropGrapes" width="122" height="175"/>
         <image name="cropManioc" width="122" height="175"/>
         <image name="cropTomato" width="122" height="175"/>
+        <image name="frame" width="343" height="153"/>
+        <image name="iconAlertYellow" width="102" height="102"/>
+        <image name="iconBanana" width="73" height="79"/>
+        <image name="iconCamera" width="116" height="82"/>
+        <image name="iconCocoa" width="53" height="93"/>
+        <image name="iconCoffee" width="69" height="66"/>
+        <image name="iconCrossRed" width="72" height="72"/>
+        <image name="iconGrapes" width="83" height="82"/>
         <image name="iconHome" width="108" height="96"/>
+        <image name="iconHumidity" width="64" height="87"/>
+        <image name="iconLight" width="93" height="94"/>
+        <image name="iconMoisture" width="116" height="53"/>
+        <image name="iconSeeds" width="70" height="94"/>
+        <image name="iconService" width="97" height="96"/>
+        <image name="iconShare" width="125" height="53"/>
         <image name="iconShop" width="102" height="102"/>
+        <image name="iconTemperature" width="79" height="100"/>
+        <image name="iconTools" width="105" height="96"/>
+        <image name="locationPinSmall" width="32" height="50"/>
+        <image name="locationPinSmallGreenPlus" width="52" height="71"/>
+        <image name="marketCartPrice" width="330" height="128"/>
+        <image name="marketToolPrice1" width="124" height="120"/>
+        <image name="marketToolPrice2" width="120" height="120"/>
+        <image name="marketToolPrice3" width="120" height="120"/>
+        <image name="marketToolPrice4" width="222" height="142"/>
         <image name="menuCropSmallest" width="42" height="33"/>
         <image name="menuDiseaseSmallest" width="43" height="33"/>
         <image name="menuHomeSmallest" width="42" height="31"/>
@@ -1845,11 +2764,16 @@
         <image name="user" width="119" height="141"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1B6-nj-HPe"/>
-        <segue reference="MdC-AL-dzK"/>
+        <segue reference="Uqp-xP-YLt"/>
+        <segue reference="SBa-Rn-BZz"/>
+        <segue reference="Lbn-0Z-UIG"/>
+        <segue reference="JEf-5l-jCf"/>
         <segue reference="r0a-ez-veX"/>
-        <segue reference="c07-mY-bqF"/>
+        <segue reference="gni-m2-4VE"/>
         <segue reference="jeY-am-zPU"/>
-        <segue reference="0Sw-cE-7Jg"/>
+        <segue reference="wgO-QL-Zg4"/>
+        <segue reference="iZb-eU-7FE"/>
+        <segue reference="64x-Bz-UCc"/>
+        <segue reference="2W2-Vg-bjX"/>
     </inferredMetricsTieBreakers>
 </document>

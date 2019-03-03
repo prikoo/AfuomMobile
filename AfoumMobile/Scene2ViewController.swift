@@ -28,7 +28,7 @@ class Scene2ViewController: UIViewController {
         mapView.showsUserLocation = true
         centerMapOnLocation(location: homeLocation)
         
-        let todoEndpoint: String = "http://23.96.12.110/api/locations"
+        let todoEndpoint: String = "http://23.96.12.110/api/get/allfarms"
         guard let url = URL(string: todoEndpoint) else {
             print("Error: cannot create URL")
             return
@@ -61,22 +61,22 @@ class Scene2ViewController: UIViewController {
                 // the todo object is a dictionary
                 // so we just access the title using the "title" key
                 // so check for a title and print it if we have one
-                guard let locations = todo["locations"] as? [[String: Any]] else {
+                guard let farms = todo["data"] as? [[String: Any]] else {
                     print("Could not get todo title from JSON")
                     return
                 }
-                for location in locations {
-                    if let lat = location["latitude"] as? Double {
-                        if let long = location["longitude"] as? Double {
-                            if let threat = location["threat"] as? String {
-                                if threat == "rodents" {
-                                    print("hi")
-                                    let item2 = Item(title: "Cool stuff",
+                for farm in farms {
+                    if let name = farm["name"] as? [[String: Any]] { print(name)
+                        if let location = farm["area"] as? [[String: Any]] {print(type(of: location))
+                            if let longitude = farm["area"] as? [[Double: Any]] {
+                               // if threat == "rodents" {
+                                
+                                    /*let item2 = Item(title: "Cool stuff",
                                                      locationName: "loco",
-                                                     discipline: "Sculpture",
-                                                     coordinate: CLLocationCoordinate2D(latitude: lat, longitude: long))
-                                    self.mapView.addAnnotation(item2)
-                                }
+                                                     discipline: "Sculpture"))
+                                                     //coordinate: CLLocationCoordinate2D(latitude: name, longitude: long))
+                                    self.mapView.addAnnotation(item2)*/
+                                //}
                             }
                         }
                     }
