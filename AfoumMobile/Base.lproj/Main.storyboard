@@ -38,7 +38,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="FPg-Vd-Anx" kind="show" id="2W2-Vg-bjX"/>
+                                    <segue destination="FPg-Vd-Anx" kind="show" animates="NO" id="2W2-Vg-bjX"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smallLogo1" highlightedImage="smallLogo1" translatesAutoresizingMaskIntoConstraints="NO" id="OFt-kq-ONY">
@@ -85,9 +85,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="Fiw-iQ-Ghu" kind="popoverPresentation" popoverAnchorView="SRJ-hW-djS" id="Z5S-2f-4eq">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="Fiw-iQ-Ghu" kind="show" animates="NO" id="Z5S-2f-4eq"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Let's start with the basics." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="C3i-zW-dlJ">
@@ -130,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhY-xu-Mxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="704" y="30"/>
+            <point key="canvasLocation" x="654" y="29"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KKm-az-J2z">
@@ -149,7 +147,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Are you interested in selling?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z2D-S9-eel">
-                                <rect key="frame" x="67" y="224" width="240" height="38"/>
+                                <rect key="frame" x="66.666666666667879" y="224" width="240" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -157,7 +155,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PF7-6V-TPP">
-                                <rect key="frame" x="117" y="270" width="50" height="40"/>
+                                <rect key="frame" x="116.66666666666788" y="270" width="50" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
@@ -172,7 +170,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tVV-gW-BDX">
-                                <rect key="frame" x="208" y="270" width="50" height="40"/>
+                                <rect key="frame" x="207.66666666666788" y="270" width="50" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
@@ -187,13 +185,13 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Or-jJ-Q4S">
-                                <rect key="frame" x="87" y="532" width="200" height="40"/>
+                                <rect key="frame" x="86.666666666667879" y="532" width="200" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="17"/>
                                 <color key="tintColor" red="0.53171581030000004" green="0.82982653380000004" blue="0.59430146220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Next Step">
-                                    <color key="titleColor" red="0.1526788771" green="0.35223847629999999" blue="0.42497608069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -201,20 +199,18 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ojD-t8-pFV" kind="popoverPresentation" popoverAnchorView="1Or-jJ-Q4S" id="VM1-ch-X9t">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="ojD-t8-pFV" kind="show" animates="NO" id="VM1-ch-X9t"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Bio" borderStyle="roundedRect" placeholder="Bio" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6XC-oS-iC6">
-                                <rect key="frame" x="62" y="400" width="250" height="30"/>
+                                <rect key="frame" x="61.666666666667879" y="400" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" text="Farm Area (in acres)" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1xL-FK-Mlb">
-                                <rect key="frame" x="62" y="348" width="250" height="30"/>
+                                <rect key="frame" x="61.666666666667879" y="348" width="250" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Skia-Regular" family="Skia" pointSize="18"/>
@@ -635,7 +631,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="ojD-t8-pFV" kind="show" id="5ul-xC-uSu"/>
+                                    <segue destination="ojD-t8-pFV" kind="show" id="aE8-Dr-OlR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v5-Mf-ESr">
@@ -753,6 +749,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="show" id="SMJ-lF-ipN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yk8-Gv-OKj">
                                 <rect key="frame" x="87" y="550" width="200" height="40"/>
@@ -768,6 +767,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="show" id="SBa-Rn-BZz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -884,6 +886,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="show" id="INd-I4-5LT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oo5-zW-dE9">
                                 <rect key="frame" x="87" y="557" width="200" height="40"/>
@@ -899,6 +904,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="show" id="0Wc-Kb-Fac"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What variety?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pEu-wL-0y5">
                                 <rect key="frame" x="130" y="91" width="192" height="46"/>
@@ -994,6 +1002,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ojD-t8-pFV" kind="show" id="0Sw-cE-7Jg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KG-Uf-9cI">
                                 <rect key="frame" x="87" y="550" width="200" height="40"/>
@@ -1009,6 +1020,9 @@
                                         <integer key="value" value="8"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="aPp-0e-owr" kind="show" id="1B6-nj-HPe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1029,7 +1043,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dmc-V0-I02"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="WEATHER" image="menuWeather" landscapeImage="menuWeather" selectedImage="menuWeather" id="5l9-jW-sRp"/>
+                    <tabBarItem key="tabBarItem" title="WEATHER" image="menuWeatherIcon" selectedImage="menuWeather" id="5l9-jW-sRp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C7c-5t-m4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1045,7 +1059,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dGQ-Ho-CER"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="DISEASE" image="menuDisease" landscapeImage="menuDisease" selectedImage="menuDisease" id="RYa-Pu-iVT"/>
+                    <tabBarItem key="tabBarItem" title="DISEASE" image="menuDiseaseIcon" selectedImage="menuDisease" id="RYa-Pu-iVT"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ezb-jS-657" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1060,7 +1074,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-wm-S1L">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rkz-wm-S1L">
                                 <rect key="frame" x="16" y="20" width="343" height="598"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
@@ -1068,7 +1082,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qf7-8e-kas"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" selectedImage="menuCrop" id="oS1-w0-up5"/>
+                    <tabBarItem key="tabBarItem" title="CROP" image="menuCropIcon" selectedImage="menuCrop" id="oS1-w0-up5"/>
                     <connections>
                         <outlet property="mapView" destination="Rkz-wm-S1L" id="yoK-oF-Nff"/>
                     </connections>
@@ -1111,12 +1125,16 @@
         <image name="cropManioc" width="122" height="175"/>
         <image name="cropTomato" width="122" height="175"/>
         <image name="menuCrop" width="87" height="84"/>
+        <image name="menuCropIcon" width="15" height="17"/>
         <image name="menuDisease" width="87" height="78"/>
+        <image name="menuDiseaseIcon" width="16" height="16"/>
         <image name="menuWeather" width="87" height="93"/>
+        <image name="menuWeatherIcon" width="21" height="16"/>
         <image name="smallLogo1" width="103" height="102"/>
         <image name="user" width="119" height="141"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5ul-xC-uSu"/>
+        <segue reference="1B6-nj-HPe"/>
+        <segue reference="cTG-TY-fCY"/>
     </inferredMetricsTieBreakers>
 </document>
