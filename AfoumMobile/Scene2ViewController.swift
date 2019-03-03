@@ -13,6 +13,7 @@ class Scene2ViewController: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     let homeLocation = CLLocation(latitude: -23, longitude: -46)
     let regionRadius: CLLocationDistance = 10000
+
     func centerMapOnLocation(location: CLLocation)
     {
         let coordinateRegion = MKCoordinateRegion(center: location.coordinate,
@@ -20,36 +21,6 @@ class Scene2ViewController: UIViewController {
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
-
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-        print ("Hello from MyView")
-        if annotation is MKUserLocation
-        {
-            return nil
-        }
-        var annotationView = self.mapView.dequeueReusableAnnotationView(withIdentifier: "Pin")
-        if annotationView == nil{
-            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "Pin")
-            annotationView?.canShowCallout = false
-        } else {
-            annotationView?.annotation = annotation
-            //annotationView?.rightCalloutAccessoryView = rightButton
-        }
-        annotationView?.image = UIImage(named: "iconBanana")
-        
-        let rightButton = UIButton(type: .contactAdd)
-        rightButton.tag = annotation.hash
-        
-        //annotationView.animatesDrop = true
-        //annotationView.canShowCallout = true
-        
-        
-        
-        return annotationView
-        
-        
-        
-    }
     
     
     override func viewDidLoad() {
