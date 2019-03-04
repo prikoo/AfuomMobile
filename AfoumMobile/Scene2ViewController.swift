@@ -65,22 +65,43 @@ class Scene2ViewController: UIViewController {
                     print("Could not get todo title from JSON")
                     return
                 }
-                for farm in farms {
-                    if let name = farm["name"] as? [[String: Any]] { print(name)
-                        if let location = farm["area"] as? [[String: Any]] {print(type(of: location))
-                            if let longitude = farm["area"] as? [[Double: Any]] {
-                               // if threat == "rodents" {
-                                
-                                    /*let item2 = Item(title: "Cool stuff",
-                                                     locationName: "loco",
-                                                     discipline: "Sculpture"))
-                                                     //coordinate: CLLocationCoordinate2D(latitude: name, longitude: long))
-                                    self.mapView.addAnnotation(item2)*/
-                                //}
-                            }
+                /*for farm in farms {
+                    if let name = farm["name"] as? String {
+                        if let bio = farm["bio"] as? String {
+                            if let area = farm["area"] as? String {
+                                print(farm["longitude"])
+                                if let longitude = farm["longitude"] as? CLLocationDegrees {
+                                    print(longitude)
+                                    if let latitude = farm["latitude"] as? CLLocationDegrees{
+                                        print(latitude)
+                                        let item = Item(name: name,
+                                                     bio: bio,
+                                                     longitude: longitude,
+                                                     latitude: latitude,
+                                                     coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
+                                    self.mapView.addAnnotation(item)
+                                    }
+                                }
+                           }
                         }
                     }
+                }*/
+                
+                for farm in farms {
+                    let name = farm["name"] as? String
+                    let bio = farm["bio"] as? String
+                    let area = farm["area"] as? String
+                    let longitude = farm["longitude"] as? String
+                    print(longitude)
+                    let latitude = farm["latitude"] as? CLLocationDegrees
+                    /*let item = Item(name: name,
+                                    bio: bio,
+                                    longitude: longitude,
+                                    latitude: latitude,
+                                    coordinate: CLLocationCoordinate2D(latitude: latitude, longitude: longitude))
+                self.mapView.addAnnotation(item)*/
                 }
+                
             } catch  {
                 print("error trying to convert data to JSON")
                 return

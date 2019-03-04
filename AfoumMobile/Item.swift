@@ -11,22 +11,24 @@ import Foundation
 import MapKit
 
 class Item: NSObject, MKAnnotation {
-    let title: String?
-    let locationName: String
-    let discipline: String
+    let name: String?
+    let bio: String
+    let longitude: CLLocationDegrees
+    let latitude: CLLocationDegrees
     let coordinate: CLLocationCoordinate2D
     
-    init(title: String, locationName: String, discipline: String, coordinate: CLLocationCoordinate2D) {
-        self.title = title
-        self.locationName = locationName
-        self.discipline = discipline
+    init(name: String, bio: String, longitude: CLLocationDegrees, latitude: CLLocationDegrees, coordinate: CLLocationCoordinate2D) {
+        self.name = name
+        self.bio = bio
+        self.longitude = longitude
+        self.latitude = latitude
         self.coordinate = coordinate
         
         super.init()
     }
     
     var subtitle: String? {
-        return locationName
+        return name
     }
     /*
     private func setupItemAnnotationView(for annotation: Item, on mapView: MKMapView) -> MKAnnotationView {
@@ -47,8 +49,8 @@ class Item: NSObject, MKAnnotation {
         flagAnnotationView.centerOffset = offset
         
         return flagAnnotationView
-    }*/
+    }
     
 }
 
-
+     */}
